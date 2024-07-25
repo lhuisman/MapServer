@@ -676,6 +676,7 @@ static json getFeature(layerObj *layer, shapeObj *shape, gmlItemListObj *items,
     }
   }
 
+  //if (i == items->numitems)
   if (i == items->numitems)
     throw std::runtime_error("Feature id not found.");
 
